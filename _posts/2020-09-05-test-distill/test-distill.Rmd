@@ -1,0 +1,69 @@
+---
+title: "Test distill"
+description: |
+  A short description of the post.
+author:
+  - name: Gyeong-Geun LEE
+    url: https://gglee4ai.github.com
+date: 09-05-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+```{r}
+library(tidyverse)
+library(cowplot)
+```
+
+
+```{r}
+cars %>% 
+  ggplot(aes(speed, dist)) +
+  geom_point() +
+  theme_minimal()
+```
+
+
+이블로그를 클론하시려면, 아리의 명령어를 치세요.
+
+
+
+```bash
+ls -alh
+```
+
+
+```yaml
+---
+>output:
+>  html_document:
+>    fig_height: 6
+>    fig_width: 10
+>    highlight: textmate
+>    theme: cosmo
+>    toc: yes
+>    toc_depth: 3
+>    toc_float: yes
+>  pdf_document:
+>    fig_height: 6
+>    fig_width: 10
+>    toc: no
+>  word_document:
+>    fig_height: 6
+>    fig_width: 9
+>    toc: no
+>---
+```
+
+
+`html`은 **[`theme`](http://www.datadreaming.org/post/r-markdown-theme-gallery/)**^[http://www.datadreaming.org/post/r-markdown-theme-gallery/]에서 테마, **[`highlight`](https://eranraviv.com/syntax-highlighting-style-in-rmarkdown/)^[https://eranraviv.com/syntax-highlighting-style-in-rmarkdown/]**에서 글씨 강조 스타일을 설정할 수 있으며, `toc_float` 옵션으로 움직이는 목차를 만들 수 있다(\@ref(fig:tocfloat)). 
+

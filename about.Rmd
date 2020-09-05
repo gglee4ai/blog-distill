@@ -2,8 +2,15 @@
 title: "About this blog"
 description: |
   Some additional details about the blog
+  This is spartan 뭐 그런대로 테스트하는 용도로는 쓸만합니다.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+안녕하세요 이것은 distill을 이용한 블로그 입니다.
+간단하면서 확실하게 사용가능한 블로그입니다.
+참고하세요...
+
+

@@ -1,14 +1,13 @@
 ---
-title: "Welcome to My Distill Blog"
+title: "제 블로그에 오신것을 환영합니다."
 description: |
-  Welcome to our new blog, My Distill Blog. We hope you enjoy 
-  reading what we have to say!
+  이 블로그는 R의 distill 패키지를 이용하여 만들어졌습니다. 
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
-date: 09-05-2020
+  - name: 이경근
+    url: https://gglee4ai.github.com
+    affiliation: FMS
+    # affiliation_url: https://example.com/spacelysprokets
+date: 09-04-2020
 output:
   distill::distill_article:
     self_contained: false
@@ -21,6 +20,9 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/blog.html
 
 ```
+
+안녕하세요? Distill을 이용한 블로그의 첫 글입니다. 아직 테스트 중입니다.
+
 
 
 

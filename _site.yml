@@ -1,7 +1,7 @@
 name: "distill"
-title: "My Distill Blog"
+title: "gglee Blog"
 description: |
-  My Distill Blog
+  My Distill Blog에 오신것을 환영
 output_dir: "docs"
 navbar:
   right:
