@@ -1,11 +1,11 @@
 ---
-title: "Test distill"
+title: "이것은 첫번째 distill 테스트입니다"
 description: |
-  A short description of the post.
+  단순한 디스틸 블로그를 만들었습니다.
 author:
-  - name: Gyeong-Geun LEE
+  - name: 이경근
     url: https://gglee4ai.github.com
-date: 09-05-2020
+date: 2020-09-05
 output:
   distill::distill_article:
     self_contained: false

@@ -1,12 +1,14 @@
 name: "distill"
 title: "gglee Blog"
 description: |
-  My Distill Blog에 오신것을 환영
+  My Distill Blog에 오신것을 환영합니다.
 output_dir: "docs"
+theme: gglee-blog.css
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+  search: true
 output: distill::distill_article
